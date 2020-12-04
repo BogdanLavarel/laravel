@@ -128,5 +128,7 @@
                 </div>
             </div>
         </div>
+
+        <a href="{{ route('params',['id' => 7]) }}" target="_blank" >Params</a>
     </body>
 </html>
