@@ -36,3 +36,10 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/params/{id}', [\App\Http\Controllers\User\ParamsController::class, 'index'])->name('params');
 
 Route::post('/params', [\App\Http\Controllers\User\ParamsController::class, 'indexPost'])->name('params-post');
+
+Route::get('/forms/{id}', [\App\Http\Controllers\User\FormsController::class, 'index'])->name('forms');
+Route::post('/forms', [\App\Http\Controllers\User\FormsController::class, 'indexPost'])->name('forms-post');
+
+
+
+

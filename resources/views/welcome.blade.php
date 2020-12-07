@@ -130,5 +130,6 @@
         </div>
 
         <a href="{{ route('params',['id' => 7]) }}" target="_blank" >Params</a>
+        <a href="{{ route('forms',['id' => 7]) }}" target="_blank" >Forms</a>
     </body>
 </html>
